@@ -1,1 +1,4 @@
-# Pares-Ordenados
+# Pares Ordenados
+A continuación, se presenta la implementación de un código que se centra en la aplicación de técnicas de detección de objetos y segmentación de imágenes, utilizando [Fashionpedia](https://huggingface.co/datasets/detection-datasets/fashionpedia), un dataset que genera secciona e identifica prendas de vestir y accesorios en imágenes, donde se hace uso de una serie de modelos de detección de objetos denominados YOLOS [ https://github.com/hustvl/YOLOS ].
+
+En este caso se utiliza un modelo previamente entrenado con Fashionpedia [https://github.com/valentinafeve/fine_tunning_YOLOS_for_fashion/tree/main ] y que permite hacer uso de imágenes diferentes a las del dataset para realizar el reconocimiento de las diversas prendas de ropa, dicho modelo es tomado de la plataforma Hugging Face [https://huggingface.co/valentinafeve/yolos-fashionpedia ].
